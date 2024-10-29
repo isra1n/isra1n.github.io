@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Cat isra1n</title>
+  <title>isra1n</title>
   
-  <subtitle>Cat Bayi Blog</subtitle>
+  <subtitle>isra1n Blog</subtitle>
   <link href="https://isra1n.github.io/atom.xml" rel="self"/>
   
   <link href="https://isra1n.github.io/"/>
@@ -10,7 +10,7 @@
   <id>https://isra1n.github.io/</id>
   
   <author>
-    <name>Cat isra1n</name>
+    <name>isra1n</name>
     
   </author>
   
