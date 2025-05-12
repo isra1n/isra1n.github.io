@@ -6,7 +6,7 @@
   <link href="https://isra1n.github.io/atom.xml" rel="self"/>
   
   <link href="https://isra1n.github.io/"/>
-  <updated>2024-10-25T08:07:24.306Z</updated>
+  <updated>2025-05-12T07:54:16.010Z</updated>
   <id>https://isra1n.github.io/</id>
   
   <author>
@@ -17,22 +17,173 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Hello World</title>
-    <link href="https://isra1n.github.io/2024/10/25/hello-world/"/>
-    <id>https://isra1n.github.io/2024/10/25/hello-world/</id>
-    <published>2024-10-25T08:07:24.306Z</published>
-    <updated>2024-10-25T08:07:24.306Z</updated>
+    <title>你好，Hexo世界！</title>
+    <link href="https://isra1n.github.io/2023/11/23/Hello-World/"/>
+    <id>https://isra1n.github.io/2023/11/23/Hello-World/</id>
+    <published>2023-11-22T16:00:00.000Z</published>
+    <updated>2025-05-12T07:54:16.010Z</updated>
     
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+    <content type="html"><![CDATA[<p>欢迎来到我的Hexo博客！🎉 这是我的第一篇测试文章，用来验证博客是否正常运行。如果你看到这篇文章，说明你的Hexo环境已经成功搭建！</p><h2 id="🚀-快速入门"><a href="#🚀-快速入门" class="headerlink" title="🚀 快速入门"></a>🚀 快速入门</h2><h3 id="1-创建新文章"><a href="#1-创建新文章" class="headerlink" title="1. 创建新文章"></a>1. 创建新文章</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo new <span class="string">&quot;文章标题&quot;</span></span><br></pre></td></tr></table></figure>]]></content>
     
     
       
       
-    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for</summary>
+    <summary type="html">&lt;p&gt;欢迎来到我的Hexo博客！🎉 这是我的第一篇测试文章，用来验证博客是否正常运行。如果你看到这篇文章，说明你的Hexo环境已经成功搭建！&lt;/p&gt;
+&lt;h2 id=&quot;🚀-快速入门&quot;&gt;&lt;a href=&quot;#🚀-快速入门&quot; class=&quot;headerlink&quot; title=&quot;🚀</summary>
       
     
     
     
+    <category term="首页" scheme="https://isra1n.github.io/categories/%E9%A6%96%E9%A1%B5/"/>
+    
+    
+    <category term="Hexo" scheme="https://isra1n.github.io/tags/Hexo/"/>
+    
+    <category term="教程" scheme="https://isra1n.github.io/tags/%E6%95%99%E7%A8%8B/"/>
+    
+    <category term="博客搭建" scheme="https://isra1n.github.io/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>我是如何挖到人生第一个CVE的</title>
+    <link href="https://isra1n.github.io/2023/11/23/%E6%BC%8F%E6%B4%9E%E6%8C%96%E6%8E%98%E5%AE%9E%E6%88%98%EF%BC%9ACVE%E6%8C%96%E6%8E%98%E5%85%A5%E9%97%A8%E6%8C%87%E5%8D%97/"/>
+    <id>https://isra1n.github.io/2023/11/23/%E6%BC%8F%E6%B4%9E%E6%8C%96%E6%8E%98%E5%AE%9E%E6%88%98%EF%BC%9ACVE%E6%8C%96%E6%8E%98%E5%85%A5%E9%97%A8%E6%8C%87%E5%8D%97/</id>
+    <published>2023-11-22T16:00:00.000Z</published>
+    <updated>2025-05-12T07:54:38.926Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="一、漏洞挖掘方法论"><a href="#一、漏洞挖掘方法论" class="headerlink" title="一、漏洞挖掘方法论"></a>一、漏洞挖掘方法论</h2><h3 id="1-目标选择技巧"><a href="#1-目标选择技巧" class="headerlink" title="1. 目标选择技巧"></a>1. 目标选择技巧</h3><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 自动筛选易出漏洞的组件（Python示例）</span></span><br><span class="line"><span class="keyword">import</span> requests</span><br><span class="line"><span class="keyword">from</span> bs4 <span class="keyword">import</span> BeautifulSoup</span><br><span class="line"></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">find_vulnerable_components</span>():</span><br><span class="line">    res = requests.get(<span class="string">&quot;https://www.exploit-db.com/&quot;</span>)</span><br><span class="line">    soup = BeautifulSoup(res.text, <span class="string">&#x27;html.parser&#x27;</span>)</span><br><span class="line">    <span class="keyword">return</span> [a.text <span class="keyword">for</span> a <span class="keyword">in</span> soup.select(<span class="string">&#x27;.exploit-list a&#x27;</span>) <span class="keyword">if</span> <span class="string">&#x27;RCE&#x27;</span> <span class="keyword">in</span> a.text]</span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;一、漏洞挖掘方法论&quot;&gt;&lt;a href=&quot;#一、漏洞挖掘方法论&quot; class=&quot;headerlink&quot; title=&quot;一、漏洞挖掘方法论&quot;&gt;&lt;/a&gt;一、漏洞挖掘方法论&lt;/h2&gt;&lt;h3 id=&quot;1-目标选择技巧&quot;&gt;&lt;a href=&quot;#1-目标选择技巧&quot; class=&quot;</summary>
+      
+    
+    
+    
+    <category term="企业漏洞挖掘" scheme="https://isra1n.github.io/categories/%E4%BC%81%E4%B8%9A%E6%BC%8F%E6%B4%9E%E6%8C%96%E6%8E%98/"/>
+    
+    
+    <category term="CVE" scheme="https://isra1n.github.io/tags/CVE/"/>
+    
+    <category term="Fuzzing" scheme="https://isra1n.github.io/tags/Fuzzing/"/>
+    
+    <category term="代码审计" scheme="https://isra1n.github.io/tags/%E4%BB%A3%E7%A0%81%E5%AE%A1%E8%AE%A1/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Maltego企业资产自动化测绘指南</title>
+    <link href="https://isra1n.github.io/2023/11/22/Maltego%E4%BC%81%E4%B8%9A%E8%B5%84%E4%BA%A7%E6%B5%8B%E7%BB%98%E5%AE%9E%E6%88%98/"/>
+    <id>https://isra1n.github.io/2023/11/22/Maltego%E4%BC%81%E4%B8%9A%E8%B5%84%E4%BA%A7%E6%B5%8B%E7%BB%98%E5%AE%9E%E6%88%98/</id>
+    <published>2023-11-21T16:00:00.000Z</published>
+    <updated>2025-05-12T07:54:23.983Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="一、Maltego核心功能演示"><a href="#一、Maltego核心功能演示" class="headerlink" title="一、Maltego核心功能演示"></a>一、Maltego核心功能演示</h2><h3 id="1-域名关联挖掘"><a href="#1-域名关联挖掘" class="headerlink" title="1. 域名关联挖掘"></a>1. 域名关联挖掘</h3><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 自动化脚本示例（Maltego Transform）</span></span><br><span class="line"><span class="keyword">from</span> maltego_trx.decorator_registry <span class="keyword">import</span> TransformRegistry</span><br><span class="line">registry = TransformRegistry()</span><br><span class="line"><span class="meta">@registry.register_transform(<span class="params">display_name=<span class="string">&quot;提取子域名&quot;</span></span>)</span></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">ExtractSubdomains</span>:</span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">run</span>(<span class="params">self, request</span>):</span><br><span class="line">        domain = request.Value</span><br><span class="line">        <span class="comment"># 调用SecurityTrails API获取子域名</span></span><br><span class="line">        <span class="keyword">return</span> [&#123;<span class="string">&quot;type&quot;</span>:<span class="string">&quot;maltego.Domain&quot;</span>, <span class="string">&quot;value&quot;</span>:sub&#125; <span class="keyword">for</span> sub <span class="keyword">in</span> api_query(domain)]</span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;一、Maltego核心功能演示&quot;&gt;&lt;a href=&quot;#一、Maltego核心功能演示&quot; class=&quot;headerlink&quot; title=&quot;一、Maltego核心功能演示&quot;&gt;&lt;/a&gt;一、Maltego核心功能演示&lt;/h2&gt;&lt;h3 id=&quot;1-域名关联挖掘&quot;&gt;&lt;a </summary>
+      
+    
+    
+    
+    <category term="开源情报收集" scheme="https://isra1n.github.io/categories/%E5%BC%80%E6%BA%90%E6%83%85%E6%8A%A5%E6%94%B6%E9%9B%86/"/>
+    
+    
+    <category term="OSINT" scheme="https://isra1n.github.io/tags/OSINT/"/>
+    
+    <category term="资产测绘" scheme="https://isra1n.github.io/tags/%E8%B5%84%E4%BA%A7%E6%B5%8B%E7%BB%98/"/>
+    
+    <category term="威胁情报" scheme="https://isra1n.github.io/tags/%E5%A8%81%E8%83%81%E6%83%85%E6%8A%A5/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Vulnhub-MrRobot靶机渗透实录</title>
+    <link href="https://isra1n.github.io/2023/11/21/Vulnhub-MrRobot%E9%9D%B6%E6%9C%BA%E6%B8%97%E9%80%8F/"/>
+    <id>https://isra1n.github.io/2023/11/21/Vulnhub-MrRobot%E9%9D%B6%E6%9C%BA%E6%B8%97%E9%80%8F/</id>
+    <published>2023-11-20T16:00:00.000Z</published>
+    <updated>2025-05-12T07:54:53.751Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="信息收集"><a href="#信息收集" class="headerlink" title="信息收集"></a>信息收集</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">nmap -sV -p- 192.168.1.105  <span class="comment"># 发现80/443端口</span></span><br><span class="line">dirb http://target/wordpress  <span class="comment"># 扫描目录</span></span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;信息收集&quot;&gt;&lt;a href=&quot;#信息收集&quot; class=&quot;headerlink&quot; title=&quot;信息收集&quot;&gt;&lt;/a&gt;信息收集&lt;/h2&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre</summary>
+      
+    
+    
+    
+    <category term="靶场攻防分享" scheme="https://isra1n.github.io/categories/%E9%9D%B6%E5%9C%BA%E6%94%BB%E9%98%B2%E5%88%86%E4%BA%AB/"/>
+    
+    
+    <category term="WordPress" scheme="https://isra1n.github.io/tags/WordPress/"/>
+    
+    <category term="提权" scheme="https://isra1n.github.io/tags/%E6%8F%90%E6%9D%83/"/>
+    
+    <category term="CTF" scheme="https://isra1n.github.io/tags/CTF/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>欢迎来到我的网络安全知识库</title>
+    <link href="https://isra1n.github.io/2023/11/20/%E6%AC%A2%E8%BF%8E%E6%9D%A5%E5%88%B0%E6%88%91%E7%9A%84%E5%AE%89%E5%85%A8%E5%8D%9A%E5%AE%A2/"/>
+    <id>https://isra1n.github.io/2023/11/20/%E6%AC%A2%E8%BF%8E%E6%9D%A5%E5%88%B0%E6%88%91%E7%9A%84%E5%AE%89%E5%85%A8%E5%8D%9A%E5%AE%A2/</id>
+    <published>2023-11-19T16:00:00.000Z</published>
+    <updated>2025-05-12T07:54:44.010Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="🔒-博客定位"><a href="#🔒-博客定位" class="headerlink" title="🔒 博客定位"></a>🔒 博客定位</h2><p>专注分享：</p><ul><li>红蓝对抗实战案例</li><li>漏洞挖掘技术</li><li>安全工具开发</li><li>最新威胁情报</li></ul><h2 id="🛠️-常用工具推荐"><a href="#🛠️-常用工具推荐" class="headerlink" title="🛠️ 常用工具推荐"></a>🛠️ 常用工具推荐</h2><table><thead><tr><th>工具类型</th><th>推荐工具</th></tr></thead><tbody><tr><td>渗透测试</td><td>Metasploit, Cobalt Strike</td></tr><tr><td>漏洞扫描</td><td>Nessus, Nuclei</td></tr><tr><td>流量分析</td><td>Wireshark, Zeek</td></tr></tbody></table><h2 id="📚-学习资源"><a href="#📚-学习资源" class="headerlink" title="📚 学习资源"></a>📚 学习资源</h2><ul><li><a href="https://attack.mitre.org/">MITRE ATT&amp;CK 矩阵</a></li><li>《Web安全攻防：渗透测试实战指南》</li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;🔒-博客定位&quot;&gt;&lt;a href=&quot;#🔒-博客定位&quot; class=&quot;headerlink&quot; title=&quot;🔒 博客定位&quot;&gt;&lt;/a&gt;🔒 博客定位&lt;/h2&gt;&lt;p&gt;专注分享：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;红蓝对抗实战案例&lt;/li&gt;
+&lt;li&gt;漏洞挖掘技术&lt;/li&gt;
+&lt;</summary>
+      
+    
+    
+    
+    <category term="首页" scheme="https://isra1n.github.io/categories/%E9%A6%96%E9%A1%B5/"/>
+    
+    
+    <category term="简介" scheme="https://isra1n.github.io/tags/%E7%AE%80%E4%BB%8B/"/>
+    
+    <category term="资源导航" scheme="https://isra1n.github.io/tags/%E8%B5%84%E6%BA%90%E5%AF%BC%E8%88%AA/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>蓝队防御实战笔记</title>
+    <link href="https://isra1n.github.io/2023/11/15/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A8%E5%8D%9A%E5%AE%A2/"/>
+    <id>https://isra1n.github.io/2023/11/15/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A8%E5%8D%9A%E5%AE%A2/</id>
+    <published>2023-11-14T16:00:00.000Z</published>
+    <updated>2025-05-12T07:54:31.165Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="蓝队防御基础要点"><a href="#蓝队防御基础要点" class="headerlink" title="蓝队防御基础要点"></a>蓝队防御基础要点</h2><h3 id="1-安全监控体系搭建"><a href="#1-安全监控体系搭建" class="headerlink" title="1. 安全监控体系搭建"></a>1. 安全监控体系搭建</h3><ul><li>部署SIEM系统（如Splunk&#x2F;Elastic Stack）</li><li>配置Syslog收集网络设备日志</li><li>建立基线流量模型</li></ul><h3 id="2-常见攻击检测手法"><a href="#2-常见攻击检测手法" class="headerlink" title="2. 常见攻击检测手法"></a>2. 常见攻击检测手法</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 检测暴力破解尝试</span></span><br><span class="line">grep <span class="string">&quot;Failed password&quot;</span> /var/log/auth.log | awk <span class="string">&#x27;&#123;print $9&#125;&#x27;</span> | <span class="built_in">sort</span> | <span class="built_in">uniq</span> -c | <span class="built_in">sort</span> -nr</span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;蓝队防御基础要点&quot;&gt;&lt;a href=&quot;#蓝队防御基础要点&quot; class=&quot;headerlink&quot; title=&quot;蓝队防御基础要点&quot;&gt;&lt;/a&gt;蓝队防御基础要点&lt;/h2&gt;&lt;h3 id=&quot;1-安全监控体系搭建&quot;&gt;&lt;a href=&quot;#1-安全监控体系搭建&quot; class=&quot;</summary>
+      
+    
+    
+    
+    <category term="蓝队技术" scheme="https://isra1n.github.io/categories/%E8%93%9D%E9%98%9F%E6%8A%80%E6%9C%AF/"/>
+    
+    
+    <category term="安全运维" scheme="https://isra1n.github.io/tags/%E5%AE%89%E5%85%A8%E8%BF%90%E7%BB%B4/"/>
+    
+    <category term="SIEM" scheme="https://isra1n.github.io/tags/SIEM/"/>
+    
+    <category term="入侵检测" scheme="https://isra1n.github.io/tags/%E5%85%A5%E4%BE%B5%E6%A3%80%E6%B5%8B/"/>
     
   </entry>
   

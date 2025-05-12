@@ -6,22 +6,28 @@
     
 
     
-    <title>关于 | isra1n</title>
+    <title>Maltego企业资产自动化测绘指南 | isra1n</title>
     
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     
-    <meta name="description" content="isra1n Blog">
-<meta property="og:type" content="website">
-<meta property="og:title" content="关于">
-<meta property="og:url" content="https://isra1n.github.io/about/index.html">
+    <meta name="keywords" content="OSINT,资产测绘,威胁情报" />
+    
+    <meta name="description" content="一、Maltego核心功能演示1. 域名关联挖掘123456789# 自动化脚本示例（Maltego Transform）from maltego_trx.decorator_registry import TransformRegistryregistry &#x3D; TransformRegistry()@registry.register_transform(display_name&#x3D;&quot;提">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Maltego企业资产自动化测绘指南">
+<meta property="og:url" content="https://isra1n.github.io/2023/11/22/Maltego%E4%BC%81%E4%B8%9A%E8%B5%84%E4%BA%A7%E6%B5%8B%E7%BB%98%E5%AE%9E%E6%88%98/index.html">
 <meta property="og:site_name" content="isra1n">
-<meta property="og:description" content="isra1n Blog">
+<meta property="og:description" content="一、Maltego核心功能演示1. 域名关联挖掘123456789# 自动化脚本示例（Maltego Transform）from maltego_trx.decorator_registry import TransformRegistryregistry &#x3D; TransformRegistry()@registry.register_transform(display_name&#x3D;&quot;提">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2024-10-25T08:42:08.000Z">
-<meta property="article:modified_time" content="2025-05-11T08:33:08.541Z">
+<meta property="og:image" content="https://isra1n.github.io/images/Maltego.png">
+<meta property="article:published_time" content="2023-11-21T16:00:00.000Z">
+<meta property="article:modified_time" content="2025-05-12T07:54:23.983Z">
 <meta property="article:author" content="isra1n">
-<meta property="article:tag" content="Cat,isra1n">
+<meta property="article:tag" content="OSINT">
+<meta property="article:tag" content="资产测绘">
+<meta property="article:tag" content="威胁情报">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://isra1n.github.io/images/Maltego.png">
     
 
     
@@ -175,24 +181,48 @@
                         <div class="main-body-header">
     <h1 class="header">
     
-    <em class="page-title-link" data-url="/about/index.html">关于</em>
+    <a class="page-title-link" href="/categories/%E5%BC%80%E6%BA%90%E6%83%85%E6%8A%A5%E6%94%B6%E9%9B%86/">开源情报收集</a>
     </h1>
 </div>
 
                         <div class="main-body-content">
-                            <article id="page-" class="article article-single article-type-page" itemscope itemprop="blogPost">
+                            <article id="post-Maltego企业资产测绘实战" class="article article-single article-type-post" itemscope itemprop="blogPost">
     <div class="article-inner">
         
             <header class="article-header">
                 
     
         <h1 class="article-title" itemprop="name">
-        关于
+        Maltego企业资产自动化测绘指南
         </h1>
     
 
             </header>
         
+        
+            <div class="article-meta">
+                
+    <div class="article-date">
+      <i class="fa fa-calendar"></i>
+      <a href="/2023/11/22/Maltego%E4%BC%81%E4%B8%9A%E8%B5%84%E4%BA%A7%E6%B5%8B%E7%BB%98%E5%AE%9E%E6%88%98/" class="article-date">
+         <time datetime="2023-11-21T16:00:00.000Z" itemprop="datePublished">2023-11-22</time>
+      </a>
+    </div>
+
+
+                
+
+                
+    <div class="article-tag">
+        <i class="fa fa-tag"></i>
+        <a class="tag-link-link" href="/tags/OSINT/" rel="tag">OSINT</a>, <a class="tag-link-link" href="/tags/%E5%A8%81%E8%83%81%E6%83%85%E6%8A%A5/" rel="tag">威胁情报</a>, <a class="tag-link-link" href="/tags/%E8%B5%84%E4%BA%A7%E6%B5%8B%E7%BB%98/" rel="tag">资产测绘</a>
+    </div>
+
+                
+
+                
+
+            </div>
         
         
         <div class="article-entry" itemprop="articleBody">
@@ -202,14 +232,14 @@
 
             
 
-            
+            <h2 id="一、Maltego核心功能演示"><a href="#一、Maltego核心功能演示" class="headerlink" title="一、Maltego核心功能演示"></a>一、Maltego核心功能演示</h2><h3 id="1-域名关联挖掘"><a href="#1-域名关联挖掘" class="headerlink" title="1. 域名关联挖掘"></a>1. 域名关联挖掘</h3><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 自动化脚本示例（Maltego Transform）</span></span><br><span class="line"><span class="keyword">from</span> maltego_trx.decorator_registry <span class="keyword">import</span> TransformRegistry</span><br><span class="line">registry = TransformRegistry()</span><br><span class="line"><span class="meta">@registry.register_transform(<span class="params">display_name=<span class="string">&quot;提取子域名&quot;</span></span>)</span></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">ExtractSubdomains</span>:</span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">run</span>(<span class="params">self, request</span>):</span><br><span class="line">        domain = request.Value</span><br><span class="line">        <span class="comment"># 调用SecurityTrails API获取子域名</span></span><br><span class="line">        <span class="keyword">return</span> [&#123;<span class="string">&quot;type&quot;</span>:<span class="string">&quot;maltego.Domain&quot;</span>, <span class="string">&quot;value&quot;</span>:sub&#125; <span class="keyword">for</span> sub <span class="keyword">in</span> api_query(domain)]</span><br></pre></td></tr></table></figure>
         </div>
         <footer class="article-footer">
             
 
 
 
-    <a data-url="https://isra1n.github.io/about/index.html" data-id="cmaksfgz70002o0qd31ba2015" class="article-share-link"><i class="fa fa-share"></i>分享到</a>
+    <a data-url="https://isra1n.github.io/2023/11/22/Maltego%E4%BC%81%E4%B8%9A%E8%B5%84%E4%BA%A7%E6%B5%8B%E7%BB%98%E5%AE%9E%E6%88%98/" data-id="cmaksfgze000mo0qdawja36mx" class="article-share-link"><i class="fa fa-share"></i>分享到</a>
 <script>
     (function ($) {
         $('body').on('click', function() {
@@ -279,16 +309,16 @@
             "@type": "Person",
             "name": "isra1n"
         },
-        "headline": "关于",
-        "image": "https://isra1n.github.io",
+        "headline": "Maltego企业资产自动化测绘指南",
+        "image": "https://isra1n.github.io/images/Maltego.png",
         
-        
-        "datePublished": "2024-10-25",
-        "dateCreated": "2024-10-25",
-        "dateModified": "2025-05-11",
-        "url": "https://isra1n.github.io/about/index.html",
-        "description": "",
-        "wordCount": 1
+        "genre": "[object Object]",
+        "datePublished": "2023-11-22",
+        "dateCreated": "2023-11-22",
+        "dateModified": "2025-05-12",
+        "url": "https://isra1n.github.io/2023/11/22/Maltego企业资产测绘实战/",
+        "description": "一、Maltego核心功能演示1. 域名关联挖掘123456789# 自动化脚本示例（Maltego Transform）from maltego_trx.decorator_registry import TransformRegistryregistry = TransformRegistry()@registry.register_transform(display_name=&quot;提",
+        "wordCount": 101
     }
 </script>
 </article>
@@ -364,6 +394,29 @@
             
         </ul>
     </div>
+    
+        
+<nav id="article-nav">
+    
+        <a href="/2023/11/23/%E6%BC%8F%E6%B4%9E%E6%8C%96%E6%8E%98%E5%AE%9E%E6%88%98%EF%BC%9ACVE%E6%8C%96%E6%8E%98%E5%85%A5%E9%97%A8%E6%8C%87%E5%8D%97/" id="article-nav-newer" class="article-nav-link-wrap">
+        <strong class="article-nav-caption">下一篇</strong>
+        <p class="article-nav-title">
+        
+            我是如何挖到人生第一个CVE的
+        
+        </p>
+        <i class="icon fa fa-chevron-right" id="icon-chevron-right"></i>
+    </a>
+    
+    
+        <a href="/2023/11/21/Vulnhub-MrRobot%E9%9D%B6%E6%9C%BA%E6%B8%97%E9%80%8F/" id="article-nav-older" class="article-nav-link-wrap">
+        <strong class="article-nav-caption">上一篇</strong>
+        <p class="article-nav-title">Vulnhub-MrRobot靶机渗透实录</p>
+        <i class="icon fa fa-chevron-left" id="icon-chevron-left"></i>
+        </a>
+    
+</nav>
+
     
     <div class="widgets-container">
         
@@ -575,7 +628,7 @@
     var disqus_shortname = 'hexo-theme-hueman';
     
     
-    var disqus_url = 'https://isra1n.github.io/about/index.html';
+    var disqus_url = 'https://isra1n.github.io/2023/11/22/Maltego%E4%BC%81%E4%B8%9A%E8%B5%84%E4%BA%A7%E6%B5%8B%E7%BB%98%E5%AE%9E%E6%88%98/';
     
     (function() {
     var dsq = document.createElement('script');

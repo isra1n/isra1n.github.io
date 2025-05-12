@@ -6,22 +6,28 @@
     
 
     
-    <title>关于 | isra1n</title>
+    <title>我是如何挖到人生第一个CVE的 | isra1n</title>
     
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     
-    <meta name="description" content="isra1n Blog">
-<meta property="og:type" content="website">
-<meta property="og:title" content="关于">
-<meta property="og:url" content="https://isra1n.github.io/about/index.html">
+    <meta name="keywords" content="CVE,Fuzzing,代码审计" />
+    
+    <meta name="description" content="一、漏洞挖掘方法论1. 目标选择技巧12345678# 自动筛选易出漏洞的组件（Python示例）import requestsfrom bs4 import BeautifulSoupdef find_vulnerable_components():    res &#x3D; requests.get(&quot;https:&#x2F;&#x2F;www.exploit-db.com&#x2F;&quot;)    soup &#x3D;">
+<meta property="og:type" content="article">
+<meta property="og:title" content="我是如何挖到人生第一个CVE的">
+<meta property="og:url" content="https://isra1n.github.io/2023/11/23/%E6%BC%8F%E6%B4%9E%E6%8C%96%E6%8E%98%E5%AE%9E%E6%88%98%EF%BC%9ACVE%E6%8C%96%E6%8E%98%E5%85%A5%E9%97%A8%E6%8C%87%E5%8D%97/index.html">
 <meta property="og:site_name" content="isra1n">
-<meta property="og:description" content="isra1n Blog">
+<meta property="og:description" content="一、漏洞挖掘方法论1. 目标选择技巧12345678# 自动筛选易出漏洞的组件（Python示例）import requestsfrom bs4 import BeautifulSoupdef find_vulnerable_components():    res &#x3D; requests.get(&quot;https:&#x2F;&#x2F;www.exploit-db.com&#x2F;&quot;)    soup &#x3D;">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2024-10-25T08:42:08.000Z">
-<meta property="article:modified_time" content="2025-05-11T08:33:08.541Z">
+<meta property="og:image" content="https://isra1n.github.io/images/%E6%BC%8F%E6%B4%9E%E6%8C%96%E6%8E%98cve.png">
+<meta property="article:published_time" content="2023-11-22T16:00:00.000Z">
+<meta property="article:modified_time" content="2025-05-12T07:54:38.926Z">
 <meta property="article:author" content="isra1n">
-<meta property="article:tag" content="Cat,isra1n">
+<meta property="article:tag" content="CVE">
+<meta property="article:tag" content="Fuzzing">
+<meta property="article:tag" content="代码审计">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://isra1n.github.io/images/%E6%BC%8F%E6%B4%9E%E6%8C%96%E6%8E%98cve.png">
     
 
     
@@ -175,24 +181,48 @@
                         <div class="main-body-header">
     <h1 class="header">
     
-    <em class="page-title-link" data-url="/about/index.html">关于</em>
+    <a class="page-title-link" href="/categories/%E4%BC%81%E4%B8%9A%E6%BC%8F%E6%B4%9E%E6%8C%96%E6%8E%98/">企业漏洞挖掘</a>
     </h1>
 </div>
 
                         <div class="main-body-content">
-                            <article id="page-" class="article article-single article-type-page" itemscope itemprop="blogPost">
+                            <article id="post-漏洞挖掘实战：CVE挖掘入门指南" class="article article-single article-type-post" itemscope itemprop="blogPost">
     <div class="article-inner">
         
             <header class="article-header">
                 
     
         <h1 class="article-title" itemprop="name">
-        关于
+        我是如何挖到人生第一个CVE的
         </h1>
     
 
             </header>
         
+        
+            <div class="article-meta">
+                
+    <div class="article-date">
+      <i class="fa fa-calendar"></i>
+      <a href="/2023/11/23/%E6%BC%8F%E6%B4%9E%E6%8C%96%E6%8E%98%E5%AE%9E%E6%88%98%EF%BC%9ACVE%E6%8C%96%E6%8E%98%E5%85%A5%E9%97%A8%E6%8C%87%E5%8D%97/" class="article-date">
+         <time datetime="2023-11-22T16:00:00.000Z" itemprop="datePublished">2023-11-23</time>
+      </a>
+    </div>
+
+
+                
+
+                
+    <div class="article-tag">
+        <i class="fa fa-tag"></i>
+        <a class="tag-link-link" href="/tags/CVE/" rel="tag">CVE</a>, <a class="tag-link-link" href="/tags/Fuzzing/" rel="tag">Fuzzing</a>, <a class="tag-link-link" href="/tags/%E4%BB%A3%E7%A0%81%E5%AE%A1%E8%AE%A1/" rel="tag">代码审计</a>
+    </div>
+
+                
+
+                
+
+            </div>
         
         
         <div class="article-entry" itemprop="articleBody">
@@ -202,14 +232,14 @@
 
             
 
-            
+            <h2 id="一、漏洞挖掘方法论"><a href="#一、漏洞挖掘方法论" class="headerlink" title="一、漏洞挖掘方法论"></a>一、漏洞挖掘方法论</h2><h3 id="1-目标选择技巧"><a href="#1-目标选择技巧" class="headerlink" title="1. 目标选择技巧"></a>1. 目标选择技巧</h3><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 自动筛选易出漏洞的组件（Python示例）</span></span><br><span class="line"><span class="keyword">import</span> requests</span><br><span class="line"><span class="keyword">from</span> bs4 <span class="keyword">import</span> BeautifulSoup</span><br><span class="line"></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">find_vulnerable_components</span>():</span><br><span class="line">    res = requests.get(<span class="string">&quot;https://www.exploit-db.com/&quot;</span>)</span><br><span class="line">    soup = BeautifulSoup(res.text, <span class="string">&#x27;html.parser&#x27;</span>)</span><br><span class="line">    <span class="keyword">return</span> [a.text <span class="keyword">for</span> a <span class="keyword">in</span> soup.select(<span class="string">&#x27;.exploit-list a&#x27;</span>) <span class="keyword">if</span> <span class="string">&#x27;RCE&#x27;</span> <span class="keyword">in</span> a.text]</span><br></pre></td></tr></table></figure>
         </div>
         <footer class="article-footer">
             
 
 
 
-    <a data-url="https://isra1n.github.io/about/index.html" data-id="cmaksfgz70002o0qd31ba2015" class="article-share-link"><i class="fa fa-share"></i>分享到</a>
+    <a data-url="https://isra1n.github.io/2023/11/23/%E6%BC%8F%E6%B4%9E%E6%8C%96%E6%8E%98%E5%AE%9E%E6%88%98%EF%BC%9ACVE%E6%8C%96%E6%8E%98%E5%85%A5%E9%97%A8%E6%8C%87%E5%8D%97/" data-id="cmaksfgzj000uo0qd3ze80n9c" class="article-share-link"><i class="fa fa-share"></i>分享到</a>
 <script>
     (function ($) {
         $('body').on('click', function() {
@@ -279,16 +309,16 @@
             "@type": "Person",
             "name": "isra1n"
         },
-        "headline": "关于",
-        "image": "https://isra1n.github.io",
+        "headline": "我是如何挖到人生第一个CVE的",
+        "image": "https://isra1n.github.io/images/漏洞挖掘cve.png",
         
-        
-        "datePublished": "2024-10-25",
-        "dateCreated": "2024-10-25",
-        "dateModified": "2025-05-11",
-        "url": "https://isra1n.github.io/about/index.html",
-        "description": "",
-        "wordCount": 1
+        "genre": "[object Object]",
+        "datePublished": "2023-11-23",
+        "dateCreated": "2023-11-23",
+        "dateModified": "2025-05-12",
+        "url": "https://isra1n.github.io/2023/11/23/漏洞挖掘实战：CVE挖掘入门指南/",
+        "description": "一、漏洞挖掘方法论1. 目标选择技巧12345678# 自动筛选易出漏洞的组件（Python示例）import requestsfrom bs4 import BeautifulSoupdef find_vulnerable_components():    res = requests.get(&quot;https://www.exploit-db.com/&quot;)    soup = ",
+        "wordCount": 80
     }
 </script>
 </article>
@@ -364,6 +394,29 @@
             
         </ul>
     </div>
+    
+        
+<nav id="article-nav">
+    
+        <a href="/2023/11/23/Hello-World/" id="article-nav-newer" class="article-nav-link-wrap">
+        <strong class="article-nav-caption">下一篇</strong>
+        <p class="article-nav-title">
+        
+            你好，Hexo世界！
+        
+        </p>
+        <i class="icon fa fa-chevron-right" id="icon-chevron-right"></i>
+    </a>
+    
+    
+        <a href="/2023/11/22/Maltego%E4%BC%81%E4%B8%9A%E8%B5%84%E4%BA%A7%E6%B5%8B%E7%BB%98%E5%AE%9E%E6%88%98/" id="article-nav-older" class="article-nav-link-wrap">
+        <strong class="article-nav-caption">上一篇</strong>
+        <p class="article-nav-title">Maltego企业资产自动化测绘指南</p>
+        <i class="icon fa fa-chevron-left" id="icon-chevron-left"></i>
+        </a>
+    
+</nav>
+
     
     <div class="widgets-container">
         
@@ -575,7 +628,7 @@
     var disqus_shortname = 'hexo-theme-hueman';
     
     
-    var disqus_url = 'https://isra1n.github.io/about/index.html';
+    var disqus_url = 'https://isra1n.github.io/2023/11/23/%E6%BC%8F%E6%B4%9E%E6%8C%96%E6%8E%98%E5%AE%9E%E6%88%98%EF%BC%9ACVE%E6%8C%96%E6%8E%98%E5%85%A5%E9%97%A8%E6%8C%87%E5%8D%97/';
     
     (function() {
     var dsq = document.createElement('script');
